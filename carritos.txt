@@ -1,0 +1,56 @@
+[
+    {
+        "idCarrito": 1,
+        "diaYHora": "Tue Jul 26 2022 19:00:30 GMT-0300 (hora estándar de Argentina)",
+        "productos": []
+    },
+    {
+        "idCarrito": 2,
+        "diaYHora": "Tue Jul 26 2022 19:00:34 GMT-0300 (hora estándar de Argentina)",
+        "productos": [
+            {
+                "id": 2,
+                "nombre": "pantalon",
+                "precio": 2150,
+                "stock": "4",
+                "descripcion": "Es un buen pantalon",
+                "codigo": "100101010",
+                "img": "img nueva"
+            },
+            {
+                "nombre": "medias",
+                "precio": 2150,
+                "stock": "4",
+                "descripcion": "Medias deportivas",
+                "codigo": "100101010",
+                "img": "img nueva",
+                "id": 3
+            }
+        ]
+    },
+    {
+        "idCarrito": 3,
+        "diaYHora": "Tue Jul 26 2022 19:00:37 GMT-0300 (hora estándar de Argentina)",
+        "productos": [
+            {
+                "id": 2,
+                "nombre": "pantalon",
+                "precio": 2150,
+                "stock": "4",
+                "descripcion": "Es un buen pantalon",
+                "codigo": "100101010",
+                "img": "img nueva"
+            }
+        ]
+    },
+    {
+        "idCarrito": 4,
+        "diaYHora": "Tue Jul 26 2022 21:44:15 GMT-0300 (hora estándar de Argentina)",
+        "productos": []
+    },
+    {
+        "idCarrito": 5,
+        "diaYHora": "Tue Jul 26 2022 21:44:25 GMT-0300 (hora estándar de Argentina)",
+        "productos": []
+    }
+]

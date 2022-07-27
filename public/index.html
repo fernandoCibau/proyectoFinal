@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Proyecto Final</title>
+</head>
+<body style="background: black;">
+    <div style=" display: flex; justify-content: center; padding: 5rem;">
+
+        <form action="/api/productos/agregar" method="post" style="background: cadetblue; width:40rem ">
+            <h3>Ingrese su producto</h3>
+
+            <div class="mb-3" style="font-weight: 600; ">
+                <label>Nombre del producto</label>
+                <input type="text" class="form-control" id="nameProduct" placeholder="Ingrese el nombre">
+            </div>
+
+            <div class="mb-3"  style="font-weight: 600; ">
+                <label>Precio del producto</label>
+                <input type="number" class="form-control" id="priceProduct" placeholder="Ingrese el precio">
+            </div>
+
+            <div class="mb-3"  style="font-weight: 600; ">
+                <label>Stock</label>
+                <input type="number" class="form-control" id="stockProduct" placeholder="Ingrese el stock">
+            </div>
+
+            <div class="mb-3"  style="font-weight: 600; ">
+                <label>Codigo del producto</label>
+                <input type="number" class="form-control" id="codeProduct" placeholder="Ingrese el codigo">
+            </div>
+            <div class="mb-3"  style="font-weight: 600; ">
+                <label>Imagen del producto</label>
+                <input type="file" class="form-control" id="imagen" placeholder="Ingrese una imagen">
+            </div>
+
+            <div class="mb-3"  style="font-weight: 600; ">
+                <label>Ingre la descripcion del produto</label>
+                <textarea id="descriptionProduct"  cols="79rem" rows="10"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
+
+

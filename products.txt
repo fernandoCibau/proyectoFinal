@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "nombre": "pantalon",
+        "precio": 2150,
+        "stock": "4",
+        "descripcion": "Es un buen pantalon",
+        "codigo": "100101010",
+        "img": "img nueva"
+    },
+    {
+        "nombre": "medias",
+        "precio": 2150,
+        "stock": "4",
+        "descripcion": "Medias deportivas",
+        "codigo": "100101010",
+        "img": "img nueva",
+        "id": 2
+    },
+    {
+        "id": 3,
+        "nombre": "caramelos",
+        "precio": 215,
+        "stock": 40,
+        "descripcion": "caramelos masticables",
+        "codigo": "100101010",
+        "img": "img nueva"
+    },
+    {
+        "nombre": "medias",
+        "precio": 2150,
+        "stock": "4",
+        "descripcion": "Medias deportivas",
+        "codigo": "100101010",
+        "img": "img nueva",
+        "id": 4
+    }
+]
