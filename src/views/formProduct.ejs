@@ -1,0 +1,45 @@
+
+
+<section style="margin:0 0 0 15rem">
+    <div style=" padding: 5rem; background: cadetblue; width:40rem">
+        <h3>Ingrese su producto</h3>
+
+        <form action="/api/productos/agregar" method="post" >
+
+            <div class="mb-3" style="font-weight: 600; ">
+                <label>Nombre del producto</label>
+                <input type="text" class="form-control" name="nombre" placeholder="Ingrese el nombre">
+            </div>
+
+            <div class="mb-3"  style="font-weight: 600; ">
+                <label>Precio del producto</label>
+                <input type="number" class="form-control" name="precio" placeholder="Ingrese el precio">
+            </div>
+
+            <div class="mb-3"  style="font-weight: 600; ">
+                <label>Stock</label>
+                <input type="number" class="form-control" name="stock" placeholder="Ingrese el stock">
+            </div>
+
+            <div class="mb-3"  style="font-weight: 600; ">
+                <label>Codigo del producto</label>
+                <input type="number" class="form-control" name="codigo" placeholder="Ingrese el codigo">
+            </div>
+            <div class="mb-3"  style="font-weight: 600; ">
+                <label>Imagen del producto</label>
+                <input type="file" class="form-control" name="imagen" placeholder="Ingrese una imagen">
+            </div>
+
+            <div class="mb-3"  style="font-weight: 600; ">
+                <label>Ingrese la descripcion del produto</label>
+                <textarea id="descriptionProduct" name="descripcion"  cols="79rem" rows="10"></textarea>
+            </div>
+
+            <button class="btn btn-primary">Enviar</button>
+        </form>
+        <form action="/api/productos/agregar" method="post">
+            <button name="terminar" value="terminar" >terminar</button>
+        </form>
+
+    </div>
+</section>

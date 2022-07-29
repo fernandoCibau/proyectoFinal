@@ -14,9 +14,9 @@
             },
             {
                 "id": 1,
-                "nombre": "pantalon",
-                "precio": 2150,
-                "stock": "4",
+                "nombre": "short",
+                "precio": 1350,
+                "stock": "40",
                 "descripcion": "Es un buen pantalon",
                 "codigo": "100101010",
                 "img": "img nueva"
@@ -31,9 +31,9 @@
                 "id": 2
             },
             {
-                "nombre": "medias",
-                "precio": 2150,
-                "stock": "4",
+                "nombre": "zapatillas",
+                "precio": 21250,
+                "stock": "15",
                 "descripcion": "Medias deportivas",
                 "codigo": "100101010",
                 "img": "img nueva",

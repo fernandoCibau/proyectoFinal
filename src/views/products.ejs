@@ -1,0 +1,27 @@
+
+<section>
+
+    <h1 style="color: red ;"> Lista de productos </h1>
+
+    <% if( listProducts.length > 0 ) { %>
+        <div style="display: flex ; flex-wrap: wrap; " >
+            <% for( const products of listProducts ){%>
+                <div style="border:solid; padding: 2rem; width: 13rem; margin: 1rem; background: palevioletred;">
+                    <div style="border: solid ; padding: 3rem 2rem;">
+                        <img>Img</img>
+                    </div>
+                    <h3><%=products.nombre%></h3>
+                    <p>Precio : <%=products.precio%></p>
+                    <p>Stock : <%=products.stock%></p>
+                    <p>Codigo : <%=products.codigo%></p>
+                    <div>
+                        <h4>Descripcion</h4>
+                        <p><%=products.descripcion%></p>
+                    </div>
+                </div>
+            <%}%>
+        </div>
+    <% } else{ %>
+        <h3 class="text-warning bg-dark   md:30px" >NO HAY PRODUCTOS EN LA LISTA </h3>
+    <% } %>
+</section>

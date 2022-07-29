@@ -1,38 +1,99 @@
 [
     {
-        "id": 1,
-        "nombre": "pantalon",
-        "precio": 2150,
-        "stock": "4",
-        "descripcion": "Es un buen pantalon",
-        "codigo": "100101010",
-        "img": "img nueva"
+        "nombre": "cacao",
+        "precio": "435",
+        "stock": "34",
+        "codigo": "1778",
+        "imagen": "alfabeto ingles .png",
+        "descripcion": " cacao puro",
+        "id": 1
     },
     {
-        "nombre": "medias",
-        "precio": 2150,
-        "stock": "4",
-        "descripcion": "Medias deportivas",
-        "codigo": "100101010",
-        "img": "img nueva",
+        "nombre": "leche",
+        "precio": "231",
+        "stock": "23",
+        "codigo": "321234",
+        "imagen": "alfabeto ingles .png",
+        "descripcion": "leche entera",
         "id": 2
     },
     {
-        "id": 3,
-        "nombre": "caramelos",
-        "precio": 215,
-        "stock": 40,
-        "descripcion": "caramelos masticables",
-        "codigo": "100101010",
-        "img": "img nueva"
+        "nombre": "yerba mate",
+        "precio": "155",
+        "stock": "50",
+        "codigo": "11109001",
+        "imagen": "alfabeto ingles .png",
+        "descripcion": "yerba  con palos",
+        "id": 3
     },
     {
-        "nombre": "medias",
-        "precio": 2150,
-        "stock": "4",
-        "descripcion": "Medias deportivas",
-        "codigo": "100101010",
-        "img": "img nueva",
+        "nombre": "chocolate",
+        "precio": "321",
+        "stock": "32",
+        "codigo": "1778",
+        "imagen": "estilo.PNG",
+        "descripcion": "chocolate amargo",
         "id": 4
+    },
+    {
+        "nombre": "Fernando",
+        "precio": "213",
+        "stock": "123",
+        "codigo": "123",
+        "imagen": "",
+        "descripcion": "1343r2rd2rfd",
+        "id": 5
+    },
+    {
+        "terminar": "terminar",
+        "id": 6
+    },
+    {
+        "nombre": "Fernando",
+        "precio": "213",
+        "stock": "123",
+        "codigo": "123",
+        "imagen": "",
+        "descripcion": "1343r2rd2rfd",
+        "id": 7
+    },
+    {
+        "nombre": "Fernando",
+        "precio": "",
+        "stock": "",
+        "codigo": "",
+        "imagen": "",
+        "descripcion": "",
+        "id": 8
+    },
+    {
+        "nombre": "Fernando",
+        "precio": "",
+        "stock": "",
+        "codigo": "",
+        "imagen": "",
+        "descripcion": "",
+        "id": 9
+    },
+    {
+        "nombre": "",
+        "precio": "",
+        "stock": "",
+        "codigo": "",
+        "imagen": "",
+        "descripcion": "",
+        "id": 10
+    },
+    {
+        "terminar": "terminar",
+        "id": 11
+    },
+    {
+        "terminar": "terminar",
+        "id": 12
+    },
+    {
+        "terminar": "terminar",
+        "id": 13
     }
 ]

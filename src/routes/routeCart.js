@@ -11,9 +11,11 @@ router.get('/:id/productos', (req, res) => {
     .then( answer => {
         const listCart = JSON.parse( answer )
         const idCart = req.params.id
-        const carId = listCart.find( e => e.idCarrito == idCart)
-        res.json(carId)
-    }).catch(error => res.json(error))
+        const cartId =  listCart.filter( e => e.idCarrito == idCart)
+        const produtcs = cartId[0].productos
+        // res.json(cartId)
+        res.render( 'carts', {cartId, produtcs})
+    }).catch(error => res.send(error))
 })
 
 router.post('/', (req, res) => {

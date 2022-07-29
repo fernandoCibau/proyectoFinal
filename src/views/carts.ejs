@@ -1,0 +1,36 @@
+
+
+<section style="background:pink ;">
+    <% if( cartId.length > 0 ) { %>
+        <% for( const carts of cartId ){%>
+
+            <h2>Carrito  Id : <%=carts.idCarrito%></h2>
+            <p>Fecha y Hora : <%=carts.diaYHora%></p>
+
+        <%}%>
+        <div style="background: rgb(238, 163, 163);">
+            <h2>Productos en carrito</h2>
+            <div style="display: flex ;">
+                <% for( const product of produtcs ){%>
+                    <div style="border:solid; padding: 2rem; width: 13rem; margin: 1rem; background: palevioletred;">
+                        <div style="border: solid ; padding: 3rem 2rem;">
+                            <img>Img</img>
+                        </div>
+                        <h3> <%= product.nombre %> </h3>
+                        <p>Precio :  <%= product.precio %> </p>
+                        <p>Stock : <%= product.stock %> </p>
+                        <p>Codigo <%= product.codigo %> </p>
+                        <div style="background:pink;padding: 5px;">
+                            <strong>Descripcion</strong>
+                            <p> <%= product.descripcion %> </p>
+                        </div>
+                    </div>
+                <%}%>
+            </div>
+        </div>
+
+    <% } else{ %>
+        <h3 class="text-warning bg-dark   md:30px" >NO HAY CARRITOS EN LA LISTA </h3>
+    <% } %>
+</section>
+
